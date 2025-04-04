@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaje ya!!</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="img/icono.png">
+</head>
+<body>
+    <header>
+        <img id="logo" src="img/logo.jpg" alt="Viajes San Agustín"> 
+    </header>
+
+    <div id="Descripción">
+        <p>
+            Por más de 20 años, Agencia de Viajes San Agustín 
+            ha sido sinónimo de confianza, experiencia y pasión 
+            por los viajes. 
+            Reconocida como una de las agencias
+             líderes en el medio, nos enorgullece ofrecer servicios 
+             personalizados que transforman tus sueños en experiencias 
+             inolvidables.
+        </p>
+    </div>
+
+    <div id="llamado">
+        <strong>
+            Responda la encuesta y participe por 2 paquetes turísticos a su destino preferido
+        </strong>
+    </div>
+
+    <div id="formulario">
+        <form action="php/procesar-información.php" method="get" >
+            <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre" required id="Nombre" placeholder="Nombre Apellido1 Apellido2">
+            <br>
+            <label>¿Ha viajado en los últimos 6 meses?</label>
+                <label>Si</label>
+                    <input type="radio" name="viaje" value="SI" checked>
+                <label>No</label>      
+                    <input type="radio" name="viaje" value="NO">           
+            <br>
+            <label>De los siguientes destinos, 
+                seleccione a cuales le gustaría visitar:</label> 
+            <br>
+            <input type="checkbox" name="caribe" value="caribe" id="caribe">
+            <label for="caribe">Caribe</label>
+            <br>
+            <input type="checkbox" name="caribe" id="dubai">
+            <label for="dubai">Dubai</label>
+            <br>
+            <input type="checkbox" name="miami" id="miami">
+            <label for="miami">Miami</label>
+            <br>
+            <input type="checkbox" name="talca" id="talca">
+            <label for="talca">Talca</label>
+            <br>
+            <label for="email">Ingrese su correo electronico:
+                <input type="email" name="email" id="email" placeholder="ejemplo@email.com" required>
+            </label>
+            <br>
+            <label for="telefono">Ingrese su número telefonico:
+                <input type="tel" name="telefono" id="telefono" placeholder="912345678" required>
+            </label>
+            <br>
+            <input type="submit" value="Enviar" id="boton">
+        </form>
+    </div>
+
+    <footer>
+        <p>visítanos en nuestro sitio web:
+            <a id="texto_link" href="https://www.cftsa.cl">www.cftsa.cl</a>
+        </p>
+    </footer>
+</body>
+</html>

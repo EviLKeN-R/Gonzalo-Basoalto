@@ -1,0 +1,77 @@
+body{ /* trabajar con el fondo y contenido de la pagina*/
+  background-color:#eaddd5;  
+  color:#474747;
+  font-family: Calibri;
+}
+
+
+#logo{
+  display: block;
+  height: 140px;
+  margin: auto;
+}
+
+#checkbox label{
+  text-align: left;
+  width: auto;
+}
+
+#Descripción {
+  display: block;
+  margin: auto;
+  margin-top: 7px;
+  width: 70%;
+}
+
+#Descripción p{
+  text-align: justify;
+  font-size: 16px;
+  padding: 5px;
+}
+
+form{
+  border:solid grey 1px;
+  width: 40%;
+  margin:auto;
+  padding: 6px;
+  border-radius: 10px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+#llamado{ 
+  background-color: lightblue;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  
+}
+
+#boton{
+  display: block;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top:10px;
+}
+
+
+
+footer{
+  background-color: blue;
+  height: 100px;
+  display: flex;
+  justify-content: center; /*X*/
+  align-items: center; /*Y*/
+  color: white;
+  margin:auto;
+  width:80%;
+}
+
+
+#texto_link{
+  color: white;
+}
+
+
